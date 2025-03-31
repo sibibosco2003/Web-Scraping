@@ -1,0 +1,10 @@
+🛠️ Requirements:
+
+Python 3.8+
+Streamlit
+Pandas
+SQLite3
+Plotly Express
+Matplotlib
+Seaborn
+Selenium
