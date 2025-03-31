@@ -2,8 +2,6 @@
 
 A Streamlit-powered interactive dashboard for exploring and analyzing movie data with natural language query capabilities.
 
-![Dashboard Screenshot](')
-
 ## 🚀 Features
 
 - **Interactive Visualizations**: Beautiful charts and graphs to explore movie data
@@ -41,6 +39,18 @@ Natural Language Queries
 "Show all action movies"
 "Give me the top 5 highest rated movies"
 "Show movies with rating above 8"
+
+Custom SQL Queries:
+
+-- Get all movies sorted by duration (descending)
+SELECT * FROM movies ORDER BY Duration DESC
+
+-- Get top 10 highest rated movies
+SELECT * FROM movies ORDER BY Rating DESC LIMIT 10
+
+-- Get horror movies with rating above 7
+SELECT * FROM movies WHERE genre = 'horror' AND Rating > 7
+
 
 🎨 UI Features:
 Dark Mode: Sleek dark theme for comfortable viewing
