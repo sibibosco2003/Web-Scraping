@@ -1,0 +1,21 @@
+#🎬 Movies Dashboard 2024
+
+A Streamlit-powered interactive dashboard for exploring and analyzing movie data with natural language query capabilities.
+
+![Dashboard Screenshot]## 🚀 Features)
+
+## 🚀 Features
+
+- **Interactive Visualizations**: Beautiful charts and graphs to explore movie data
+- **Natural Language Query**: Ask questions in plain English like "Show top 5 highest rated movies"
+- **Custom SQL Query**: Write your own SQL queries for advanced analysis
+- **Smart Filters**: Filter by genre, rating, votes, and duration
+- **Responsive Design**: Works on desktop and mobile devices
+- **Sample Data**: Auto-generates sample data if no database exists
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/movies-dashboard.git
+   cd movies-dashboard
