@@ -2,7 +2,7 @@
 
 A Streamlit-powered interactive dashboard for exploring and analyzing movie data with natural language query capabilities.
 
-![Dashboard Screenshot]## 🚀 Features)
+![Dashboard Screenshot](')
 
 ## 🚀 Features
 
@@ -13,9 +13,61 @@ A Streamlit-powered interactive dashboard for exploring and analyzing movie data
 - **Responsive Design**: Works on desktop and mobile devices
 - **Sample Data**: Auto-generates sample data if no database exists
 
-## 📦 Installation
+🛠️ Requirements:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/movies-dashboard.git
-   cd movies-dashboard
+Python 3.8+
+Streamlit
+Pandas
+SQLite3
+Plotly Express
+Matplotlib
+Seaborn
+🏃‍♂️ Running the App:
+streamlit run app.py
+
+🗃️ Database Structure:
+The app uses SQLite with the following sample schema:
+
+Column |	Type |	Description
+Title |	TEXT | Movie title
+genre	 |TEXT |	Movie genre
+Rating |	REAL |	Rating (0-10)
+Votes |	INTEGER |	Number of votes
+Duration |	TEXT |	Duration in "2h 15m" format
+Duration_Minutes |	INTEGER |	Duration in minutes
+
+💡 Usage Examples:
+Natural Language Queries
+"Show all action movies"
+"Give me the top 5 highest rated movies"
+"Show movies with rating above 8"
+
+🎨 UI Features:
+Dark Mode: Sleek dark theme for comfortable viewing
+Animated Elements: Smooth transitions and loading animations
+Responsive Layout: Adapts to different screen sizes
+Interactive Charts: Hover for details, click to filter.
+
+📊 Available Visualizations:
+
+Top Rated Movies Bar Chart
+Genre Distribution Pie Chart
+Rating vs Votes Scatter Plot
+Rating vs Duration Line Chart
+Rating Distribution by Genre (Box Plot)
+Average Duration by Genre
+Violin Plot of Ratings
+Correlation Between Ratings & Votes
+
+📧 Contact
+Your Name - sibi.sjce26@gmail.com
+
+
+
+
+
+
+
+
+
+ 
